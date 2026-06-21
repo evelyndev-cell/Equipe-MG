@@ -2,18 +2,84 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Equipe MG | Fornecedor de Frutas no CEASA Rio de Janeiro</title>
-<meta name="description" content="Fornecedor direto do CEASA para hortifrutis, mercados, supermercados e distribuidores. Solicite orçamento de maracujá, coco, aipim, feijão de corda e quiabo pelo WhatsApp.">
-<meta name="keywords" content="Equipe MG, fornecedor de frutas, frutas direto do CEASA, frutas no atacado, fornecedor para supermercados, fornecedor para hortifrutis, maracujá no atacado, coco seco no atacado, quiabo no atacado, aipim no atacado, feijão de corda no atacado, CEASA Rio de Janeiro">
-<meta name="robots" content="index, follow">
-<meta property="og:title" content="Equipe MG | Fornecedor de Frutas no CEASA Rio de Janeiro">
-<meta property="og:description" content="Fornecedor direto do CEASA para hortifrutis, mercados e distribuidores. Solicite orçamento pelo WhatsApp.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Equipe MG | Fornecedor de Frutas Direto do CEASA RJ</title>
+<meta name="description" content="Equipe MG atua diretamente no CEASA Rio de Janeiro fornecendo maracujá, coco seco, abacaxi, aipim e feijão de corda para mercados, hortifrutis, supermercados e distribuidores.">
+<meta name="keywords" content="fornecedor de frutas, frutas direto do CEASA, frutas no atacado, fornecedor para hortifrutis, fornecedor para supermercados, maracujá no atacado, coco seco no atacado, abacaxi no atacado, aipim no atacado, feijão de corda no atacado, CEASA Rio de Janeiro, fornecedor CEASA RJ">
+<meta name="author" content="Equipe MG">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="language" content="pt-BR">
+<meta name="theme-color" content="#2E7D32">
+<link rel="canonical" href="https://www.equipemg.com.br/">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Equipe MG | Fornecedor de Frutas Direto do CEASA RJ">
+<meta property="og:description" content="Equipe MG atua diretamente no CEASA Rio de Janeiro fornecendo maracujá, coco seco, abacaxi, aipim e feijão de corda para mercados, hortifrutis, supermercados e distribuidores.">
 <meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:url" content="https://www.equipemg.com.br/">
+<meta property="og:site_name" content="Equipe MG">
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Equipe MG | Fornecedor de Frutas Direto do CEASA RJ">
+<meta name="twitter:description" content="Fornecedor direto do CEASA RJ: maracujá, coco seco, abacaxi, aipim e feijão de corda no atacado para mercados, hortifrutis e distribuidores.">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<!-- Schema.org LocalBusiness -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://www.equipemg.com.br/#localbusiness",
+  "name": "Equipe MG",
+  "image": "https://www.equipemg.com.br/logo.png",
+  "description": "Fornecedor direto do CEASA Rio de Janeiro de maracujá, coco seco, abacaxi, aipim e feijão de corda no atacado para mercados, hortifrutis, supermercados e distribuidores.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "R. da Riqueza, 21, Pavilhão 21, Pedras 59, 60, 61 e F",
+    "addressLocality": "Rio de Janeiro",
+    "addressRegion": "RJ",
+    "addressCountry": "BR",
+    "postalCode": "",
+    "neighborhood": "Colégio"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": -22.8230,
+    "longitude": -43.3270
+  },
+  "telephone": "+5521972137461",
+  "priceRange": "$$",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+      "opens": "03:00",
+      "closes": "13:00"
+    }
+  ],
+  "areaServed": {
+    "@type": "City",
+    "name": "Rio de Janeiro"
+  },
+  "additionalType": [
+    "https://schema.org/Store",
+    "https://schema.org/FoodEstablishment"
+  ],
+  "knowsAbout": ["Fornecedor de frutas", "Atacado de frutas", "Comércio atacadista de alimentos"],
+  "url": "https://www.equipemg.com.br/",
+  "sameAs": [
+    "https://wa.me/5521972137461"
+  ]
+}
+</script>
+
 <style>
 :root{
   --green-900:#1b5e20;
@@ -276,7 +342,7 @@ section{padding:96px 0;}
 /* Stats row */
 .hero-stats{
   display:grid;
-  grid-template-columns:repeat(3,1fr);
+  grid-template-columns:repeat(2,1fr);
   gap:12px;
 }
 .hero-stat{
@@ -308,13 +374,14 @@ section{padding:96px 0;}
 
 /* Products pill strip */
 .hero-products-strip{
-  display:flex;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
   gap:8px;
-  flex-wrap:wrap;
 }
 .hero-pill{
   display:inline-flex;
   align-items:center;
+  justify-content:center;
   gap:6px;
   background:rgba(255,255,255,.10);
   border:1px solid rgba(255,255,255,.16);
@@ -374,7 +441,7 @@ section{padding:96px 0;}
 
 /* SERVIÇOS */
 .servicos{background:var(--white);}
-.servicos-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;}
+.servicos-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;}
 .servico-card{border:1.5px solid #E8EDE8;border-radius:var(--radius-lg);padding:30px 24px;transition:transform .32s ease,box-shadow .32s ease,border-color .32s ease;}
 .servico-card:hover{transform:translateY(-6px);box-shadow:var(--shadow-md);border-color:transparent;}
 .servico-icon{width:54px;height:54px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:21px;color:var(--white);background:linear-gradient(135deg,var(--green),var(--green-light));margin-bottom:18px;}
@@ -440,7 +507,6 @@ section{padding:96px 0;}
 @media(max-width:1024px){
   .hero .container{grid-template-columns:1fr;gap:40px;padding-top:32px;padding-bottom:32px;}
   .hero-panel{max-width:520px;margin:0 auto;width:100%;}
-  .hero-stats{grid-template-columns:repeat(3,1fr);}
   .sobre .container{grid-template-columns:1fr;}
   .sobre-photo{order:-1;}
   .produtos-grid{grid-template-columns:repeat(2,1fr);}
@@ -557,10 +623,6 @@ section{padding:96px 0;}
         <div class="hero-stat">
           <strong>Seg–Sáb</strong>
           <span>03h às 13h no CEASA</span>
-        </div>
-        <div class="hero-stat">
-          <strong>5+</strong>
-          <span>Produtos no atacado</span>
         </div>
         <div class="hero-stat">
           <strong>RJ</strong>
@@ -713,11 +775,6 @@ section{padding:96px 0;}
         <div class="servico-icon"><i class="fa-solid fa-headset"></i></div>
         <h3>Atendimento Personalizado</h3>
         <p>Negociação direta, conversa olho no olho e respostas rápidas pelo WhatsApp.</p>
-      </div>
-      <div class="servico-card reveal">
-        <div class="servico-icon"><i class="fa-solid fa-truck-fast"></i></div>
-        <h3>Entrega Programada</h3>
-        <p>Organização de entregas conforme a rotina e a necessidade do seu negócio.</p>
       </div>
     </div>
   </div>
